@@ -1,7 +1,8 @@
 # Example-js-migration-MySQL-to-MongoDB
-An example of migrating MySQL data to MongoDB.
 
-This is an example tested on local, but you may also use external host to migrate your data.
+This is an example tested of migrating MySQL data to MongoDB on local. 
+
+You may also use external host to migrate your data, which was also tested to works successfully.
 
 External tools such as **MySQL Workbench** and **Robo 3T** may help you check if you have successfully migrate your data.
 
