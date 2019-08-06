@@ -50,8 +50,8 @@ We query the table from MySQL then pass the results out and save it into MongoDB
 **NOTE**: This part is optional. It exports a JSON file.
 ````
 fs.writeFile(fileName,JSON.stringify(results), function (err) {
-        if (err) throw err;
-        console.log('Saved!');
-    });
+    if (err) throw err;
+    console.log('Saved!');
+});
 ````
 
