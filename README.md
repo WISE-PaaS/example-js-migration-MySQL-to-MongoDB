@@ -36,7 +36,7 @@ This is a local host connection, you may change it to other external connections
 
 Not a very significant part, it's just to make sure that you have data in the database and is connected.
 
-![Imgur](https://i.imgur.com/dhmcSvM.png)
+![Imgur](https://i.imgur.com/KCXtuUf.png)
 
 ### 5. Export then Import
 
