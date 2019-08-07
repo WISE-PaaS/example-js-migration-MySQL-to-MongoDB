@@ -49,7 +49,7 @@ We query the table from MySQL then pass the results out and save it into MongoDB
 **NOTE**: Remember to use **`insertMany`** instead of `insertOne`. If your data isn't timeseries, it doesn't matter. But if your data is in  timeseries or time-based, you should be careful. While inserting the data one by one, the data might not be inserted in the correct order because of delay of the system and this would cause a problem in future application of the data source due to the disorder of the timestamp.
 
 **NOTE**: This part is optional. It exports a JSON file.
-````
+````js
 fs.writeFile(fileName,JSON.stringify(results), function (err) {
     if (err) throw err;
     console.log('Saved!');
