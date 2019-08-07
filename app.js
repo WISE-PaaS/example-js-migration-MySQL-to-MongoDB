@@ -38,19 +38,6 @@ app.get('/', function(req,res){
     res.sendStatus(200);
 })
 
-//set an api route to check if DB has data
-app.get('/hbt', function(req,res){
-    hbtData.find({}, function(err,hbts){
-        if(err){
-          console.log(err);
-        }
-        else{
-          res.setHeader('Access-Control-Allow-Origin', '*');
-          res.send({ heartbeats: hbts });
-        }
-    })
-})
-
 const collectionName = db.collection('hbt');
 const fileName = 'test.json';
 
