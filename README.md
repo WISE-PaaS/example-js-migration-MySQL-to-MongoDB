@@ -34,7 +34,7 @@ This is a local host connection, you may change it to other external connections
 
 ### 4. API Routes
 
-Not a very significant part, it's just to make sure that you have data in the database and is connected.
+Not a very significant part, it's just to make sure that your app is working.
 
 ![Imgur](https://i.imgur.com/KCXtuUf.png)
 
